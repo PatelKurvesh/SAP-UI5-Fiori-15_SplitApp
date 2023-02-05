@@ -3,7 +3,17 @@
 	<App>
 		<pages>
 			<Page title="{i18n>title}">
-				<content></content>
+				<content>
+					<List items="{/Company}" itemPress="onItemPress">
+						<ObjectListItem
+						type="Navigation"
+						title="{name}"
+						icon="{logo}"
+						>
+							
+						</ObjectListItem>
+					</List>
+				</content>
 			</Page>
 		</pages>
 	</App>

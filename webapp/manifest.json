@@ -39,7 +39,7 @@
 
 	"sap.ui5": {
 		"rootView": {
-			"viewName": "GithubSAP-UI5-Fiori-15_SplitApp.view.View1",
+			"viewName": "GithubSAP-UI5-Fiori-15_SplitApp.view.App",
 			"type": "XML"
 		},
 		"dependencies": {
