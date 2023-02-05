@@ -2,11 +2,11 @@
 	controllerName="GithubSAP-UI5-Fiori-15_SplitApp.controller.View2" xmlns:html="http://www.w3.org/1999/xhtml">
 	<App>
 		<pages>
-			<Page title="Title">
+			<Page title="Company Detail">
 				<content>
 				
 					<ObjectHeader
-					bindingContexts="{/company}"
+				
 					title="{name}"
 					icon="{logo}"
 					class="sapUiResponsivePadding--header" 
