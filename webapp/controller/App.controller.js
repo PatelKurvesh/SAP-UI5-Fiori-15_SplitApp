@@ -15,16 +15,17 @@ sap.ui.define([
 				var oApp = this.getView().byId("idApp");
 				
 				var oView1 = new sap.ui.view({
-					id : "idView1",
-					viewName:"GithubSAP-UI5-Fiori-15_SplitApp.view.View1",
+					id : "idView1",				//virtualy giving id to view1
+					viewName:"GithubSAP-UI5-Fiori-15_SplitApp.view.View1",  //remember full path needed
 					type:"XML"
 				});
 				var oView2 = new sap.ui.view({
-					id:"idView2",
-					viewName : "GithubSAP-UI5-Fiori-15_SplitApp.view.View2",
+					id:"idView2",				////virtualy giving id to view2
+					viewName : "GithubSAP-UI5-Fiori-15_SplitApp.view.View2",   //remember full path needed
 					type:"XML"
 				});
 				
+				//in splitapp we have two pages "MasterPage" and "DetailPage" and we need to add in root page for spliting
 				oApp.addMasterPage(oView1);          
 				oApp.addDetailPage(oView2);          
 		

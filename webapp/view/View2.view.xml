@@ -4,7 +4,7 @@
 		<pages>
 			<Page title="Company Detail">
 				<content>
-				
+				<!--ObjectHeader for top object block in page-->
 					<ObjectHeader
 				
 					title="{name}"
@@ -19,6 +19,7 @@
 						
 					</ObjectHeader>
 					
+					<!--IconTabBar-->
 					<IconTabBar>
 						<items>
 							<IconTabFilter icon="sap-icon://feeder-arrow"/>
