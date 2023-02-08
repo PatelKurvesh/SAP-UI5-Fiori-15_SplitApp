@@ -54,6 +54,7 @@
 				"sap.uxap": {}
 			}
 		},
+	
 		"contentDensities": {
 			"compact": true,
 			"cozy": true
